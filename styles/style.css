@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --clr-Soft-blue: hsl(215, 51%, 70%);
+--clr-Cyan: hsl(178, 100%, 50%);
+--clr-Very-dark-blue-main: hsl(217, 54%, 11%);
+--clr-Very-dark-blue-card: hsl(216, 50%, 16%);
+--clr-Very-dark-blue-line: hsl(215, 32%, 27%);
+--clr-White: hsl(0, 0%, 100%);
+}
+
+html{
+font-size: 18px;
+}
+
+body{
+  font-family: 'outfit', sans-serif;
+  background-color: var(--clr-Very-dark-blue-main);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card{
+  background-color: var(--clr-Very-dark-blue-card);
+  width: 22rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  color: var(--clr-White);
+}
+
+.card-description{
+  color: var(--clr-Soft-blue);
+}
+
+.card-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-left-container{
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+ 
+.info-right-container{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-ethereum{
+  width: 0.5rem;
+}
+
+.text-ethereum{
+  color: var(--clr-Cyan);
+}
+
+.text-clock{
+  color: var(--clr-Soft-blue);
+}
+
+.icon-clock{
+  width: 1rem;
+}
+
+.card-divider{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--clr-White);
+}
+
+.profile-info{
+  color: var(--clr-Very-dark-blue-line);
+}
+.profile-info2{
+  color: var(--clr-White);
+}
